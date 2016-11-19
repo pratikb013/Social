@@ -218,12 +218,16 @@
     <Compile Include="Migrations\201611130108108_PopulateGenreTable.Designer.cs">
       <DependentUpon>201611130108108_PopulateGenreTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611190217544_GigHubChange.cs" />
+    <Compile Include="Migrations\201611190217544_GigHubChange.Designer.cs">
+      <DependentUpon>201611190217544_GigHubChange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Genre.cs" />
-    <Compile Include="Models\Gig.cs" />
+    <Compile Include="Models\GigHub.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -314,6 +318,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611130108108_PopulateGenreTable.resx">
       <DependentUpon>201611130108108_PopulateGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611190217544_GigHubChange.resx">
+      <DependentUpon>201611190217544_GigHubChange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

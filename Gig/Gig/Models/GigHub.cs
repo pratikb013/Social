@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Gig.Models
 {
-    public class Gig
+    public class GigHub
     {
         public int Id { get; set; }
 
